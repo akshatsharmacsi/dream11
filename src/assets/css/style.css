@@ -1,0 +1,247 @@
+body {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.img-bg {
+    background: url("../img/img-bg.jpg") no-repeat 0px 0px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+    min-height: 710px;
+    width: 100%;
+    position: absolute;
+}
+
+.scroll {
+    height: 590px;
+    overflow-y: scroll;
+}
+
+.f-w-b {
+    font-weight: bold;
+}
+
+/* ---------------------step1 tab-------------------------- */
+
+.effect {
+    -webkit-box-shadow: 0 10px 6px -6px #adadad;
+    -moz-box-shadow: 0 10px 6px -6px #adadad;
+    box-shadow: 0 10px 6px -6px #adadad;
+}
+
+section {
+    padding: 5px 0;
+}
+
+/* section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+} */
+#tabs {
+    background: #efeff4;
+    /* color: #eee; */
+}
+
+#tabs h6.section-title {
+    color: #eee;
+}
+
+#tabs .nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: #f3f3f3;
+    background-color: transparent;
+    border-color: transparent transparent #f3f3f3;
+    border-bottom: 2px solid #c51c23 !important;
+
+    font-size: 16px;
+    /* font-weight: bold; */
+}
+
+#tabs .nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    color: #5f5f5f;
+    font-size: 17px;
+}
+
+.tab-head {
+    font-size: 17px;
+    color: #5f5f5f;
+}
+
+.card {
+    text-decoration: none !important;
+}
+
+a .card.team-name:hover,
+a .card.team-name:focus {
+    color: #212529;
+}
+
+.card-header-sm {
+    font-size: 14px;
+}
+
+.team-logo {
+    height: 70px;
+    width: 70px;
+}
+
+.team-name {
+    font-weight: bold;
+    color: #212529;
+}
+
+.time-left {
+    color: #c51c23;
+    font-size: 15px;
+}
+
+
+
+/* --------------------------------------------step2 css------------------------------------------------------ */
+
+.step2-header {
+    background: linear-gradient(104deg, #3c3c3c 50%, #323232 50%);
+    padding: 5px 5px 5px 5px;
+}
+
+.step2-header-team-logo {
+    width: 50px;
+    height: 50px;
+}
+
+.step2-fa-left {
+    color: white !important;
+    text-decoration: none;
+}
+
+a.step2-fa-left:hover,
+a.step2-fa-left:focus {
+    color: white;
+    text-decoration: none !important;
+}
+
+.step2-team-number {
+    width: 15px;
+    height: 10px;
+    border: 1px solid #000000;
+    padding: 0px 20px;
+    /* transform: skew(20deg); */
+    background: #ffffff;
+}
+
+.step2-tab-banner {
+    background-color: #00a0ff;
+    color: white;
+    padding: 10px 10px;
+}
+
+.step2-tab-banner-sm {
+    font-size: 13px;
+    border-bottom: 1px solid #e2e2e2;
+    padding: 10px 10px;
+
+}
+
+.step2-member-pic {
+    height: 55px;
+    width: 55px;
+}
+
+.step2-member-row {
+    padding: 10px 10px;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.step2-vr-line {
+    border-left: 1px solid #e2e2e2;
+}
+
+.step2-btn {
+    border-radius: 0px;
+    padding: 7px 11px;
+    font-size: 13px;
+    box-shadow: 0 10px 6px -6px #adadad;
+    position: absolute;
+    top: 35px;
+    left: 285px;
+}
+
+
+/* ----------------------------------------step3 css----------------------------------------- */
+
+
+
+.step3-contest {
+    background-color: #c51c23;
+    padding: 5px;
+}
+
+
+.step3-bg {
+    background-color: #efeff4;
+
+}
+
+.step3-fa-left {
+    color: white !important;
+    text-decoration: none;
+}
+
+a.step3-fa-left:hover,
+a.step3-fa-left:focus {
+    color: white;
+    text-decoration: none !important;
+}
+
+.step3-card-footer {
+    padding: 4px 20px 4px 20px;
+    background-color: rgba(99, 99, 99, 0.03);
+    border-top: 1px solid rgba(199, 199, 199, 0.125);
+}
+
+.step3-fa-trophy {
+    color: #cccccc;
+}
+
+.step3-card-footer-span {
+    border: 1px solid #a0a0a0fd;
+    height: 5px;
+    width: 8px;
+    font-size: 13px;
+}
+
+.step3-progressbar {
+    background: #f79d00;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffd58c, #ff2e12);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffd58c, #ff2e12);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .img-bg{
+      display: none;       
+  }
+   .team-logo{
+    height: 40px;
+    width: 40px;
+   }
+   .t-c{
+       text-align: center !important;
+   }
+   .t-l{
+       text-align: left !important;
+   }
+  }
+  
+  
